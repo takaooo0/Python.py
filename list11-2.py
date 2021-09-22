@@ -9,7 +9,7 @@ class Menber:
         print("{}:{} {}kg".format(self.no,self.name,self.weight))
 
 yamada=Menber(15,"山田太郎",72.7)
-sekine=(37,"関根信彦",65.3)    
+sekine=Menber(37,"関根信彦",65.3)    
 
 yamada.print()
 sekine.print()
